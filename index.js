@@ -4,6 +4,7 @@
 console.log("Q1-----")
 function fiveToOneHundred(){
     
+    
 }
 fiveToOneHundred()
 
