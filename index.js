@@ -38,13 +38,19 @@ function multiplesOfThreeOrFive(){
 
 multiplesOfThreeOrFive()
 
+
 //4
 console.log('Q4')
-function untilNum(){
+function untilNum(num)
+    {
+    for(let i= 1; i <= num; i++){
+        console.log(i)
+    }
+    
     
 }
 
-untilNum()
+untilNum(10)
 
 //5 
 console.log('Q5-----')
