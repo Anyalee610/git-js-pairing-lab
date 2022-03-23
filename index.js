@@ -26,8 +26,13 @@ function multiplesOfThree(){
 multiplesOfThree()
 
 //3logs all positive numbers to 100 if that number is either a mulitple of 3 or a mutliple of 5.
-console.log('Q3')
+console.log('Q3-----')
 function multiplesOfThreeOrFive(){
+    for(let i =1; i <=100; i++){
+        if(i % 3 ===0 || i % 5 === 0){
+            console.log(i)
+        }
+    }
     
 }
 
