@@ -62,10 +62,15 @@ console.log(multiply(2, 2))
 
 //6 `add` that takes in two number parameters and **returns** their sum. But if the two values are the same, return **triple their sum**!
 console.log('Q6')
-function add(){
+function add(a,b){
+    if (a === b){
+        return (a+b)*3
+    }else {
+        return a+b 
+        
     
 }
-add()
+console.log(add(2,2))
 
 //7  `isNegative` that takes in a number parameter and **returns** `true` is the number is a negative value and `false` is the number is a positive value. 
 console.log('Q7----')
@@ -81,17 +86,3 @@ function triangleArea(){
 }
 
 triangleArea()
-
-//9 takes in a number parameter and checks whether a given integer is within 20 of 100. It **returns** `true` if it is and `false` if not.
-console.log('Q9----')
-function betweenTwentyAndFourty(){
-    
-}
-betweenTwentyAndFourty()
-
-//10 `largest` that takes in three number parameters and **returns** the largest of the values.
-console.log('10----')
-function Largest(){
-    
-}
-Largest()
