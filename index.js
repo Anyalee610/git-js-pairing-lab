@@ -74,12 +74,18 @@ console.log(add(2,2));
 
 //7  `isNegative` that takes in a number parameter and **returns** `true` is the number is a negative value and `false` is the number is a positive value. 
 console.log('Q7----')
-function isNegative(){
+function isNegative(num){
+    if (num < 0) {
+        return true;
+         
+     }else{
+         return false;
+  }
     
 }
-isNegative()
+console.log(isNegative(5))
 
-//8 
+//8 Write a function `triangleArea` that takes in the height and base of a triangle and **returns** the [area of the triangle](https://www.mathsisfun.com/algebra/trig-area-triangle-without-right-angle.html). 
 console.log('Q8---')
 function triangleArea(){
     
@@ -101,4 +107,4 @@ Largest()
 
 //Write a function `changeString` to replace every character in a given string with the character following it in the alphabet/
 console.log('Q16')
-function changeString
+
