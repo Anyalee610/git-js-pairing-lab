@@ -13,7 +13,6 @@ fiveToOneHundred()
 //2 logs all positive numbers to 100 that is a multiple of 3. 
 console.log('Q2---')
 function multiplesOfThree(){
-    for(let i = 1)
     
 }
 
