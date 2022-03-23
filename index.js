@@ -6,17 +6,23 @@ function fiveToOneHundred(){
     for(let i = 5; i <= 100; i++)
     console.log(i)
     
-    
 }
+
 fiveToOneHundred()
+    
 
 
 //2 logs all positive numbers to 100 that is a multiple of 3. 
 console.log('Q2---')
 function multiplesOfThree(){
-    
+    for(let i = 1; i <= 100; i++){
+        if (i % 3 === 0) {
+            console.log(i)
+            
+        }
+        
+    }
 }
-
 multiplesOfThree()
 
 //3logs all positive numbers to 100 if that number is either a mulitple of 3 or a mutliple of 5.
